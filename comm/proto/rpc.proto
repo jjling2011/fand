@@ -1,0 +1,16 @@
+syntax = "proto3";
+package rpc;
+
+message Message {
+  string body = 1;
+}
+
+message Empty {
+
+}
+
+service RpcService {
+  rpc Report(Empty) returns (Message) {}
+  rpc TurnOn(Empty) returns (Message) {}
+  rpc TurnOff(Empty) returns (Message) {}
+}
