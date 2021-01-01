@@ -23,7 +23,7 @@ sudo cp ./fand /usr/local/bin
 
 #### 电路图  
   
-![电路示意图](https://raw.githubusercontent.com/jjling2011/rfan/master/readme/circuit01.png)  
+![电路示意图](https://github.com/jjling2011/fand/blob/main/readme/circuit01.png?raw=true)  
 *GPIO_wPi_3 物理编号15* 即 BCM22  
 *GND 为任意0v插针*  
 *5v为任意5v供电针（物理编号2或4)*  
