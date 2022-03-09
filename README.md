@@ -15,7 +15,7 @@ fand [show | mon | on | off | high 60 | low 45]
 #### 编译及安装
 ```bash
 # 编译
-cargo build release
+cargo build --release
 
 # 安装
 sudo cp ./target/release/fand /usr/local/bin
