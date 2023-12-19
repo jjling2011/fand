@@ -34,5 +34,5 @@ GND 为任意0v插针
 5v为任意5v供电针（物理编号2或4)  
   
 ##### Credits
-[https://github.com/MasterQ32/zig-args/blob/master/args.zig](https://github.com/MasterQ32/zig-args/blob/master/args.zig)  
-[https://github.com/frmdstryr/zig-datetime/tree/master](https://github.com/frmdstryr/zig-datetime/tree/master)  
+[https://github.com/MasterQ32/zig-args](https://github.com/MasterQ32/zig-args)  
+[https://github.com/frmdstryr/zig-datetime](https://github.com/frmdstryr/zig-datetime)  
