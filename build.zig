@@ -24,7 +24,8 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     });
 
-    exe.linkSystemLibrary("gpiod");
+    exe.addIncludePath(.{ .path = "/tmp/libgpiod/include" });
+    exe.addObjectFile(.{ .path = "/tmp/libgpiod/lib/libgpiod.a" });
     exe.linkLibC();
 
     // This declares intent for the executable to be installed into the

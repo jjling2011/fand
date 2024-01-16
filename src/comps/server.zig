@@ -5,7 +5,7 @@ const dateTime = @import("../libs/datetime.zig");
 const timezones = @import("../libs/timezones.zig");
 
 const gpiod = @cImport({
-    @cInclude("../include/gpiod.h");
+    @cInclude("gpiod.h");
 });
 
 var is_closing = false;
